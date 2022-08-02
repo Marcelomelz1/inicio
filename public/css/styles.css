@@ -1,0 +1,12 @@
+
+* {
+    font-family: 'Roboto';
+}
+
+h1 {
+    color: red;
+}
+
+#navbar img {
+    width: 100px;
+}
