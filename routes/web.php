@@ -23,11 +23,4 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/products', function () {
-    return view('products');
-});
-
-Route::get('/product/{id?}', function ($id = null) {
-    return view('product', ['id' => $id]);
-});
 
